@@ -1,0 +1,54 @@
+﻿@using Microsoft.AspNetCore.Authorization
+@using System.Threading
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@inject IAuthorizationService Athorize
+@{
+    AuthorizationResult authorizationResult = await Athorize.AuthorizeAsync(User, "AdminRole");
+    var currentUser = await UserManager.GetUserAsync(User);
+    var username = currentUser?.UserName;
+}
+@{
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+}
+<section class="section main-banner" id="top" data-section="section1">
+    <video autoplay muted loop id="bg-video">
+        <source src="~/assets/images/course-video.mp4" type="video/mp4" />
+    </video>
+
+    <div class="video-overlay header-text">
+        <div class="caption">
+            @if (SignInManager.IsSignedIn(User) && !authorizationResult.Succeeded)
+            {
+                <h2><em>Welcome</em> @username</h2>
+                if (ViewBag.no =="false")
+                {
+                    <h6>No Courses For You</h6>
+                }
+                else
+                {
+                    <div class="main-button">
+                        <div class=""><a href="/Clients/Details">Show Courses</a></div>
+                    </div>
+                }
+                
+            }
+            else if(authorizationResult.Succeeded)
+            {
+                <h2><em>Welcome</em> @username</h2>
+                <div class="main-button">
+                    <div class=""><a href="/Users/Index">Manage</a></div>
+                </div>
+            }
+            else if(!SignInManager.IsSignedIn(User))
+            {
+                <h2><em>Start</em> Learning</h2>
+                <div class="main-button">
+                    <div class=""><a href="/Identity/Account/Register" class="btn">SignUp</a><a href="/Identity/Account/LogIn" class="btn ms-3">LogIn</a></div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

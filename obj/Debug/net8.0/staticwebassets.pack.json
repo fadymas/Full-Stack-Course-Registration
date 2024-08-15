@@ -1,0 +1,617 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\assets\\css\\lightbox.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\css\\owl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\css\\templatemo-grad-school.css",
+      "PackagePath": "staticwebassets\\assets\\css\\templatemo-grad-school.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\author-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author-01.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\author-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author-02.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\author-03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author-03.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\author-04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author-04.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\author-05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author-05.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\choose-us-image-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\choose-us-image-01.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\choose-us-image-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\choose-us-image-02.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\choose-us-image-03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\choose-us-image-03.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\choosing-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\choosing-bg.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\assets\\images\\close.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\coming-soon-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\coming-soon-bg.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\course-video.mp4",
+      "PackagePath": "staticwebassets\\assets\\images\\course-video.mp4"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\courses-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses-01.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\courses-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses-02.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\courses-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses-03.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\courses-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses-04.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\courses-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses-05.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\courses-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\courses-bg.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\main-slider-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider-01.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\main-slider-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider-02.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\main-slider-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider-03.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\main-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\images\\main-thumb.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\next.png",
+      "PackagePath": "staticwebassets\\assets\\images\\next.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\prev.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prev.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\video-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video-bg.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\video-thumb-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video-thumb-01.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\images\\video-thumb-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video-thumb-02.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lightbox.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\js\\slick-slider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick-slider.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tabs.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\assets\\js\\video.js",
+      "PackagePath": "staticwebassets\\assets\\js\\video.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\css\\Style.css",
+      "PackagePath": "staticwebassets\\css\\Style.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\css\\css@3.css",
+      "PackagePath": "staticwebassets\\css\\css@3.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\js\\forms.js",
+      "PackagePath": "staticwebassets\\js\\forms.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\js\\jJavaScript.js",
+      "PackagePath": "staticwebassets\\js\\jJavaScript.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\all.min.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\all.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\bootstrap\\dist\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\imgs\\30805059_f.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\30805059_f.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\imgs\\30805059_f.svg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\30805059_f.svg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\imgs\\Logo-Final-01-e1678796364810.png",
+      "PackagePath": "staticwebassets\\lib\\imgs\\Logo-Final-01-e1678796364810.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\imgs\\Logo-Final-01-e1678796364810.svg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\Logo-Final-01-e1678796364810.svg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\imgs\\abstract-paper-background-concept.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\abstract-paper-background-concept.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\imgs\\back.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\back.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\imgs\\background.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\background.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\imgs\\black.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\black.jpg"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\imgs\\css-assignment-5-8.png",
+      "PackagePath": "staticwebassets\\lib\\imgs\\css-assignment-5-8.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\imgs\\email_8499423.png",
+      "PackagePath": "staticwebassets\\lib\\imgs\\email_8499423.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\imgs\\mcv.png",
+      "PackagePath": "staticwebassets\\lib\\imgs\\mcv.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\imgs\\success.png",
+      "PackagePath": "staticwebassets\\lib\\imgs\\success.png"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\mcv.ico",
+      "PackagePath": "staticwebassets\\mcv.ico"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\prepros-6.config",
+      "PackagePath": "staticwebassets\\prepros-6.config"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\prepros.config",
+      "PackagePath": "staticwebassets\\prepros.config"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\vendor\\bootstrap - Copy\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap - Copy\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\vendor\\bootstrap - Copy\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap - Copy\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\vendor\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\vendor\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\vendor\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "F:\\projects\\.Net Core\\CourseRegisteration\\WithAuthintication\\wwwroot\\vendor\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WithAuthintication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WithAuthintication.props",
+      "PackagePath": "build\\WithAuthintication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WithAuthintication.props",
+      "PackagePath": "buildMultiTargeting\\WithAuthintication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WithAuthintication.props",
+      "PackagePath": "buildTransitive\\WithAuthintication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

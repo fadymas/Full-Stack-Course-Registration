@@ -1,0 +1,156 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Log In";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+
+
+}
+<div class=" container hi row justify-content-center">
+
+    <div class="main form rounded-4 p-1 pt-2 col-12 col-md-8 col-lg-6 col-xl-4  ">
+        <img src="/lib/imgs/Logo-Final-01-e1678796364810.svg" alt="mcv logo" width="100px">
+
+
+        <form class="d-flex flex-column  align-items-center" id="loginform" method="post">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+            <h3 class="text-center  mt-5 heading    fw-bold loginText">Log In</h3>
+
+
+            @{
+                if (ViewBag.log == false)
+                {
+                    <h6 class="text-danger mt-2 fw-light text-opacity-75">Wrong Email or Password</h6>
+                    <div class="input-group  flex-nowrap w-75 ">
+                        <span class="input-group-text" id="inputGroup-sizing-lg">
+                            <i class="fa-solid fa-envelope fa-2xl"></i>
+                        </span>
+                        <div class="form-floating">
+                            <input asp-for="Input.Email" autocomplete="username" class="form-control email "
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Email"
+                                id="email" aria-required="true" autofocus>
+                            <label asp-for="Input.Email" for="floatingInputGroup1">Email</label>
+
+                        </div>
+
+                    </div>
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                }
+                else
+                {
+                    <div class="input-group  flex-nowrap w-75 mt-1">
+                        <span class="input-group-text" id="inputGroup-sizing-lg">
+                            <i class="fa-solid fa-envelope fa-2xl"></i>
+                        </span>
+                        <div class="form-floating">
+                            <input asp-for="Input.Email" autocomplete="username" class="form-control email "
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Email"
+                                id="email" required autofocus>
+                            <label asp-for="Input.Email" for="floatingInputGroup1">Email</label>
+
+                        </div>
+
+                    </div>
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                }
+            }
+
+
+            <div class="input-group flex-nowrap w-75 mt-4">
+                <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-lock fa-2xl"></i></span>
+                <div class="form-floating">
+                    <input asp-for="Input.Password" autocomplete="current-password" class="form-control password"
+                        placeholder="Password" arialabel="Password" aria-describedby="addon-wrapping"
+                        aria-required="true">
+                    <label asp-for="Input.Password" for="floatingInputGroup1">Password</label>
+
+                </div>
+
+            </div>
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+            <div class="checkbox mb-3 forgotPass">
+                <label asp-for="Input.RememberMe" class="form-label" id="rem">
+                    <input class="form-check-input" asp-for="Input.RememberMe" />
+                    @Html.DisplayNameFor(m => m.Input.RememberMe)
+                </label>
+            </div>
+
+            <p class="forgotPass">
+                <a id="forgotPasswordLink" href="/Home/getEmail" target="_blank"
+                   class="link-light  forget    link-offset-2 link-underline-opacity-0" style="
+    color: var(--bs-body-color) !important;
+">Forgot Password?</a>
+            </p>
+
+
+            <button class="btn btn-info mt-2 bu p-3 ps-5  pe-5" type="submit">LOGIN</button>
+            @{
+                if (ViewBag.log == false)
+                {
+                    <span class="signuppspace">
+                        No account? <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl"
+                            class="link-light signUpp   link-opacity-50  link-offset-2 link-underline-opacity-0">
+                            Create
+                            one!
+                        </a>
+                    </span>
+
+                }
+                else
+                {
+                    <span class="signupspace">
+                        No account? <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl"
+                            class="link-light signUp   link-opacity-50  link-offset-2 link-underline-opacity-0">
+                            Create
+                            one!
+                        </a>
+                    </span>
+
+                }
+            }
+        </form>
+
+
+
+    </div>
+
+</div>
+
+<script>
+    // Select the anchor tag by its id
+    const forgotPasswordLink = document.getElementById('forgotPasswordLink');
+
+    // Add an event listener to the anchor tag
+    forgotPasswordLink.addEventListener('click', function (event) {
+        // Prevent the default action to ensure the request is sent first
+        event.preventDefault();
+
+        // Send a request to the server to update the VisitedGetEmail variable
+        fetch('/Home/UpdateVisitedGetEmail', {
+            method: 'POST',
+
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ VisitedGetEmail: false })
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                // After the request is complete, navigate to the original link
+                // After the request is complete, open the link in a new tab with a unique identifier
+                window.open(forgotPasswordLink.href, '_blank', 'noopener,noreferrer');
+                window.location.replace("/Identity/Account/LogIn")
+    
+
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+    });
+</script>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

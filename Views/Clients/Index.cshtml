@@ -1,0 +1,44 @@
+﻿@model IEnumerable<WithAuthintication.Client>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Students</h1>
+<br/>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="">
+    <thead>
+        <tr>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Department)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.data_of_birth)
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.Department.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.data_of_birth)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.UserId">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.UserId">Delete</a> |
+                 <a asp-action="ManageCourses" asp-route-id="@item.UserId">Manage Courses</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>        

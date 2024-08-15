@@ -1,0 +1,59 @@
+﻿@model WithAuthintication.Client
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+<br/>
+<h4>Student</h4>
+<H6>@ViewBag.User.UserName</H6>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" id="createstudent">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="UserId" />
+            <div class="form-group">
+                <label asp-for="data_of_birth" class="control-label"></label>
+                <input asp-for="data_of_birth" class="form-control " id="date" />
+                <span asp-validation-for="data_of_birth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Department" class="control-label"></label>
+                <select asp-for="DepartmentId" name="DepartmentName" class="form-control" asp-items="ViewBag.DepartmentName"></select>
+                <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                <h6 class="alert alert-success">Make Sure To Delete The Courses Before Change the Department</h6>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script>
+    $("#createstudent").submit(function (e) {
+        debugger;
+
+        let date_of_birth = $("#date").val();
+
+        try {
+            date_of_birth = parseInt(date_of_birth);
+        } catch (error) {
+            alert("Invalid date of birth");
+        }
+        if (date_of_birth <= 1999 || date_of_birth >= 2008) {
+            alert("you must be 24 years old at least");
+            e.preventDefault();
+        }
+    });
+</script>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

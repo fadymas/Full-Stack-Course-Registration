@@ -1,0 +1,21 @@
+﻿@model WithAuthintication.Models.AddAdminViewModel
+
+@{
+    ViewData["Title"] = "Add Admin User";
+}
+
+<h1>Add Admin</h1>
+
+<form asp-action="Add" class="mt-4">
+    <div class="form-group">
+        <label for="email" class="control-label">Email</label>
+        <input asp-for="Email" class="w-50 form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group mt-3">
+        <input type="submit" value="Add" class="btn btn-primary" />
+    </div>
+</form>
+
+@* Display validation summary for any other errors *@
+@Html.ValidationSummary(true, "", new { @class = "alert alert-danger mt-3 w-50" })

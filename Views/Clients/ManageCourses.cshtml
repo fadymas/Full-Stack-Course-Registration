@@ -1,0 +1,50 @@
+﻿@model WithAuthintication.Client
+
+@{
+    ViewData["Title"] = "Manage Courses";
+}
+    
+<h2>Courses for <h1> @ViewData["user"]</h1></h2>
+
+
+<table class="">
+    <thead>
+        <tr>
+            <th>Course Name</th>
+            <th>Course</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var course in Model.ClientCourses)
+        {
+            <tr>
+                
+                <td>@course.Course.Name</td>
+                <td>@course.Course.Description</td>
+                <td>
+                    <form asp-action="RemoveCourse" method="post">
+                        <input type="hidden" name="clientId" value="@Model.UserId" />
+                        <input type="hidden" name="courseId" value="@course.CourseId" />
+                        <button type="submit" class="btn btn-danger">Remove</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Add Course</h3>
+<form asp-action="AddCourse" method="post">
+    <input type="hidden" name="clientId" value="@Model.UserId" />
+    <div class="form-group">
+        <label for="courseId">Course</label>
+        <select id="courseId"n name="courseId" class="form-control w-25 mb-4">
+            @foreach (var course in ViewData["Courses"] as SelectList)
+            {
+                <option value="@course.Value">@course.Text</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Course</button>
+</form>

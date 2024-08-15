@@ -1,0 +1,96 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-WithAuthintication-add1aa04-fea1-495b-bd29-675afd93b6f3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Shared\HomePage\_HomePageLayout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Shared\dashboard.rtl.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
+    <PackageReference Include="MySql.Data" Version="9.0.0" />
+    <PackageReference Include="MySqlClient" Version="5.5.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\_HomePageLayout.cshtml" />
+    <None Include="wwwroot\assets\css\flex-slider.css" />
+    <None Include="wwwroot\assets\css\fontawesome.css" />
+    <None Include="wwwroot\assets\css\lightbox.css" />
+    <None Include="wwwroot\assets\css\owl.css" />
+    <None Include="wwwroot\assets\css\templatemo-grad-school.css" />
+    <None Include="wwwroot\assets\fonts\Flaticon.woff" />
+    <None Include="wwwroot\assets\fonts\flexslider-icon.eot" />
+    <None Include="wwwroot\assets\fonts\flexslider-icon.svg" />
+    <None Include="wwwroot\assets\fonts\flexslider-icon.ttf" />
+    <None Include="wwwroot\assets\fonts\flexslider-icon.woff" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\assets\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\assets\fonts\slick.eot" />
+    <None Include="wwwroot\assets\fonts\slick.svg" />
+    <None Include="wwwroot\assets\fonts\slick.ttf" />
+    <None Include="wwwroot\assets\fonts\slick.woff" />
+    <None Include="wwwroot\assets\images\author-01.png" />
+    <None Include="wwwroot\assets\images\author-02.png" />
+    <None Include="wwwroot\assets\images\author-03.png" />
+    <None Include="wwwroot\assets\images\author-04.png" />
+    <None Include="wwwroot\assets\images\author-05.png" />
+    <None Include="wwwroot\assets\images\choose-us-image-01.png" />
+    <None Include="wwwroot\assets\images\choose-us-image-02.png" />
+    <None Include="wwwroot\assets\images\choose-us-image-03.png" />
+    <None Include="wwwroot\assets\images\choosing-bg.jpg" />
+    <None Include="wwwroot\assets\images\close.png" />
+    <None Include="wwwroot\assets\images\coming-soon-bg.jpg" />
+    <None Include="wwwroot\assets\images\contact-bg.jpg" />
+    <None Include="wwwroot\assets\images\course-video.mp4" />
+    <None Include="wwwroot\assets\images\courses-01.jpg" />
+    <None Include="wwwroot\assets\images\courses-02.jpg" />
+    <None Include="wwwroot\assets\images\courses-03.jpg" />
+    <None Include="wwwroot\assets\images\courses-04.jpg" />
+    <None Include="wwwroot\assets\images\courses-05.jpg" />
+    <None Include="wwwroot\assets\images\courses-bg.jpg" />
+    <None Include="wwwroot\assets\images\loading.gif" />
+    <None Include="wwwroot\assets\images\main-slider-01.jpg" />
+    <None Include="wwwroot\assets\images\main-slider-02.jpg" />
+    <None Include="wwwroot\assets\images\main-slider-03.jpg" />
+    <None Include="wwwroot\assets\images\main-thumb.png" />
+    <None Include="wwwroot\assets\images\next.png" />
+    <None Include="wwwroot\assets\images\prev.png" />
+    <None Include="wwwroot\assets\images\video-bg.jpg" />
+    <None Include="wwwroot\assets\images\video-thumb-01.jpg" />
+    <None Include="wwwroot\assets\images\video-thumb-02.jpg" />
+    <None Include="wwwroot\assets\js\custom.js" />
+    <None Include="wwwroot\assets\js\isotope.min.js" />
+    <None Include="wwwroot\assets\js\lightbox.js" />
+    <None Include="wwwroot\assets\js\owl-carousel.js" />
+    <None Include="wwwroot\assets\js\slick-slider.js" />
+    <None Include="wwwroot\assets\js\tabs.js" />
+    <None Include="wwwroot\assets\js\video.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Shared\HomePage\" />
+  </ItemGroup>
+
+</Project>

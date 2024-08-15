@@ -1,0 +1,58 @@
+﻿@model ClientCoursesViewModel
+@if(ViewBag.no == false){
+    <h1>No Courses For You</h1>
+}
+else
+{
+
+    <div>
+
+        <dl class="row">
+            
+            <dt class="col-sm-2">
+                Student Name
+            </dt>
+            <dd class="col-sm-2">
+                @Model.ClientName
+            </dd>
+        </dl>
+    </div>
+
+    <div>
+        <h4>Courses</h4>
+        <table >
+            <thead>
+                <tr>
+                    <th>
+                        Course ID
+                    </th>
+                    <th>
+                        Course Name
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var course in Model.Courses)
+                {
+                    <tr>
+                        <td>
+                            @course.CourseId
+                        </td>
+                        <td>
+                            @course.Name
+                        </td>
+                        <td>
+                            @course.Description
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+}
+
