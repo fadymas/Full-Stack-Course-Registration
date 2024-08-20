@@ -1,16 +1,14 @@
 # Full-Stack-Course-Registration-Project
 
-## Initial Release (V1.0)
-
-### Features
+## Features
 - Added user authentication and authorization.
 - Responsive layout on mobile devices.
 
-### Bug Fixes
+## Bug Fixes
 - Fixed issue with data synchronization.
 - Resolved UI glitches on the settings page.
 
-### Examples
+## Examples
 
 ![Home-DarkMode](https://github.com/user-attachments/assets/43debc7a-fad7-4b70-be28-f1c3abcae7d9)
 ![Home-LightMode](https://github.com/user-attachments/assets/812ae8c0-cc50-4c65-9304-aef4117b19cc)
@@ -21,3 +19,5 @@
 ![Student-Doesn't-have-courses ](https://github.com/user-attachments/assets/9431477a-77ef-4c19-b1b4-b40b5ff77179)
 ![Student-have-courses ](https://github.com/user-attachments/assets/1eb84621-aa58-4aca-a37f-1463778dafca)
 
+### Time For Develop
+- 2 Weeks By Myself
