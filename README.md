@@ -1,4 +1,4 @@
-# Student Management System
+# Course Registration System
 
 ## Overview
 
